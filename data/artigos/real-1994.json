@@ -1,0 +1,139 @@
+{
+  "slug": "real-1994",
+  "titulo": "Real (1994–presente)",
+  "subtitulo": {
+    "idioma": "Português",
+    "visualizacoes": 2847,
+    "destaque": true
+  },
+  "ficha": {
+    "titulo": "Real brasileiro",
+    "selo": {
+      "icone": "fa-money-bill-wave",
+      "valor": "R$ 200",
+      "rotulo": "Cédula oficial"
+    },
+    "campos": [
+      { "label": "Código ISO", "valor": "BRL", "obrigatorio": true },
+      { "label": "Símbolo", "valor": "R$", "obrigatorio": true },
+      { "label": "Autoridade emissora", "valor": "Banco Central do Brasil", "obrigatorio": true },
+      { "label": "Fabricante", "valor": "Casa da Moeda do Brasil", "obrigatorio": true },
+      { "label": "Intervalo de circulação", "valor": "1º de julho de 1994 – presente", "obrigatorio": true },
+      { "label": "Subunidade", "valor": "Centavo (100 centavos = R$ 1)", "obrigatorio": false },
+      { "label": "Moedas em circulação", "valor": "5, 10, 25, 50 centavos; R$ 1", "obrigatorio": true },
+      { "label": "Cédulas em circulação", "valor": "R$ 2, 5, 10, 20, 50, 100, 200", "obrigatorio": true },
+      { "label": "Composição (moedas)", "valor": "Aço inoxidável; R$ 1 bimetálica (aço + bronze)", "obrigatorio": false }
+    ]
+  },
+  "secoes": [
+    {
+      "tipo": "paragrafo",
+      "html": "O <strong>Real</strong> é a moeda oficial do Brasil desde 1º de julho de 1994, instituída pelo Plano Real durante o governo de Itamar Franco. É subdividido em 100 centavos e seu código ISO 4217 é <strong>BRL</strong>.<sup id=\"ref-1\"><a href=\"#ref-nota-1\">[1]</a></sup>"
+    },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "História" },
+    {
+      "tipo": "paragrafo",
+      "html": "O real foi criado para conter a hiperinflação que assolava o país nos anos 1980 e início dos anos 1990. O plano envolveu três fases: ajuste fiscal, criação da URV (Unidade Real de Valor) e, por fim, a introdução da nova moeda.<sup id=\"ref-2\"><a href=\"#ref-nota-2\">[2]</a></sup>"
+    },
+    {
+      "tipo": "linha-do-tempo",
+      "itens": [
+        { "data": "1º jul 1994", "evento": "Entrada em circulação do Real (R$ 1 = CR$ 2.750,00)" },
+        { "data": "1998", "evento": "Primeira família de cédulas com a efígie da República" },
+        { "data": "2010", "evento": "Segunda família de cédulas com a fauna brasileira" },
+        { "data": "2 set 2020", "evento": "Lançamento da cédula de R$ 200 (lobo-guará)" }
+      ]
+    },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Cédulas em circulação" },
+    {
+      "tipo": "tabela",
+      "titulo": "Família atual (2ª família — fauna brasileira)",
+      "colunas": ["Valor facial", "Anverso", "Reverso", "Tiragem inicial", "Lançamento"],
+      "linhas": [
+        ["R$ 2,00", "Efígie da República", "Tartaruga-de-pente", "Não divulgada", "2001"],
+        ["R$ 5,00", "Efígie da República", "Garça", "Não divulgada", "2010"],
+        ["R$ 10,00", "Efígie da República", "Arara", "Não divulgada", "2010"],
+        ["R$ 20,00", "Efígie da República", "Mico-leão-dourado", "Não divulgada", "2010"],
+        ["R$ 50,00", "Efígie da República", "Onça-pintada", "Não divulgada", "2010"],
+        ["R$ 100,00", "Efígie da República", "Garoupa", "Não divulgada", "2010"],
+        ["R$ 200,00", "Efígie da República", "Lobo-guará", "450 milhões", "2020"]
+      ]
+    },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Moedas em circulação" },
+    {
+      "tipo": "tabela",
+      "titulo": "Série atual",
+      "colunas": ["Valor facial", "Anverso", "Reverso", "Composição", "Peso", "Diâmetro", "Tiragem"],
+      "linhas": [
+        ["5 centavos", "Efígie da República", "Valor facial", "Aço inox", "4,10 g", "22,00 mm", "Variável"],
+        ["10 centavos", "Efígie da República", "Valor facial", "Aço inox", "4,80 g", "20,00 mm", "Variável"],
+        ["25 centavos", "Efígie da República", "Valor facial", "Aço inox", "7,55 g", "25,00 mm", "Variável"],
+        ["50 centavos", "Efígie da República", "Valor facial", "Aço inox", "9,25 g", "23,00 mm", "Variável"],
+        ["R$ 1,00", "Efígie da República", "Valor facial", "Bimetálica (aço + bronze)", "7,00 g", "27,00 mm", "Variável"]
+      ]
+    },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Anverso e reverso" },
+    {
+      "tipo": "galeria",
+      "itens": [
+        { "icone": "fa-user", "legenda": "Anverso: Efígie da República" },
+        { "icone": "fa-paw", "legenda": "Reverso: fauna brasileira" },
+        { "icone": "fa-shield-alt", "legenda": "Elementos de segurança" }
+      ]
+    },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Elementos de segurança" },
+    {
+      "tipo": "lista",
+      "ordenada": false,
+      "itens": [
+        "Marca d'água (efígie da República)",
+        "Fio de segurança com microtexto",
+        "Impressão em alto relevo",
+        "Tinta que muda de cor (OVI)",
+        "Holograma (cédula de R$ 200)",
+        "Elemento fluorescente sob luz UV"
+      ]
+    },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Local de cunhagem" },
+    {
+      "tipo": "paragrafo",
+      "html": "A produção de cédulas e moedas do real é de responsabilidade da <strong>Casa da Moeda do Brasil</strong> (CMB), localizada no Rio de Janeiro. A CMB é uma empresa pública vinculada ao Ministério da Fazenda e opera sob supervisão do Banco Central.<sup id=\"ref-3\"><a href=\"#ref-nota-3\">[3]</a></sup>"
+    },
+
+    { "tipo": "titulo", "nivel": 2, "texto": "Colecionismo" },
+    {
+      "tipo": "paragrafo",
+      "html": "A numismática é uma atividade popular no Brasil. Colecionadores buscam moedas raras, como a de 1 real de 1994 (primeira família), e cédulas com numeração especial ou erros de impressão.<sup id=\"ref-4\"><a href=\"#ref-nota-4\">[4]</a></sup>"
+    }
+  ],
+
+  "referencias": [
+    {
+      "id": "ref-nota-1",
+      "texto": "BANCO CENTRAL DO BRASIL. <em>Plano Real</em>. Brasília: BCB, 1994. Disponível em: &lt;https://www.bcb.gov.br&gt;. Acesso em: 12 abr. 2025."
+    },
+    {
+      "id": "ref-nota-2",
+      "texto": "FRANCO, Gustavo H. B. <em>O Plano Real e outros ensaios</em>. Rio de Janeiro: Francisco Alves, 1995."
+    },
+    {
+      "id": "ref-nota-3",
+      "texto": "CASA DA MOEDA DO BRASIL. <em>História institucional</em>. Rio de Janeiro: CMB, 2024. Disponível em: &lt;https://www.casadamoeda.gov.br&gt;. Acesso em: 12 abr. 2025."
+    },
+    {
+      "id": "ref-nota-4",
+      "texto": "SOCIEDADE NUMISMÁTICA BRASILEIRA. <em>Catálogo de moedas brasileiras</em>. São Paulo: SNB, 2023."
+    }
+  ],
+
+  "rodape": {
+    "categorias": ["Moedas do Brasil", "Cédulas do Brasil", "Real (1994)", "Numismática"],
+    "ultimaEdicao": "12/04/2025"
+  }
+}
