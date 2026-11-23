@@ -1,0 +1,28 @@
+{
+  "artigos": [
+    {
+      "slug": "real-1994",
+      "titulo": "Real (1994–presente)",
+      "categoria": "Cédulas",
+      "resumo": "Moeda oficial do Brasil desde 1994, subdividida em 100 centavos.",
+      "icone": "fa-money-bill-wave",
+      "destaque": true
+    },
+    {
+      "slug": "moeda-1-real-1994",
+      "titulo": "Moeda de 1 real (1994)",
+      "categoria": "Moedas",
+      "resumo": "Primeira moeda bimetálica do Brasil, parte do Plano Real.",
+      "icone": "fa-coins",
+      "destaque": false
+    },
+    {
+      "slug": "cruzeiro-1993",
+      "titulo": "Cruzeiro (1993–1994)",
+      "categoria": "Cédulas",
+      "resumo": "Moeda transitória do período hiperinflacionário brasileiro.",
+      "icone": "fa-history",
+      "destaque": false
+    }
+  ]
+}
