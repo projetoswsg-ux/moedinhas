@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Numismática Wiki · Enciclopédia de Cédulas e Moedas do Brasil</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wiki-container">
+    <aside class="sidebar">
+      <a href="index.html" class="sidebar-logo" style="text-decoration:none;color:inherit">
+        <i class="fas fa-globe-americas globe-icon"></i>
+        <div>
+          <div class="wiki-title">Numismática Wiki</div>
+          <div class="wiki-subtitle">Enciclopédia livre</div>
+        </div>
+      </a>
+
+      <nav class="nav-section">
+        <h3>Navegação</h3>
+        <ul>
+          <li><a href="index.html"><i class="fas fa-home"></i> Página principal</a></li>
+          <li><a href="#cedulas"><i class="fas fa-money-bill-wave"></i> Cédulas</a></li>
+          <li><a href="#moedas"><i class="fas fa-coins"></i> Moedas</a></li>
+        </ul>
+      </nav>
+
+      <div class="sidebar-footer">
+        <i class="fas fa-copyright"></i> Conteúdo livre · 2025
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="article-header">
+        <h1>Bem-vindo à Numismática Wiki</h1>
+        <div class="article-subhead">
+          <span><i class="fas fa-book"></i> Enciclopédia livre de cédulas e moedas brasileiras</span>
+          <span class="badge"><i class="fas fa-database"></i> <span id="contador-artigos">…</span> artigos</span>
+        </div>
+      </header>
+
+      <section class="content-section">
+        <p>Esta enciclopédia colaborativa reúne informações detalhadas sobre <strong>cédulas e moedas brasileiras</strong>: tiragem, autoridade emissora, intervalo de circulação, valor facial, local de cunhagem, anverso, reverso, história e referências bibliográficas.</p>
+
+        <div class="search-bar">
+          <i class="fas fa-search"></i>
+          <input type="search" id="busca" placeholder="Buscar artigo por título ou categoria…">
+        </div>
+
+        <h2 id="todos">Todos os artigos</h2>
+        <div class="card-grid" id="lista-artigos">
+          <div class="loading"><i class="fas fa-spinner fa-spin"></i> Carregando índice…</div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
